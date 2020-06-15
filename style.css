@@ -1,3 +1,4 @@
+
 body{
   overflow-x: hidden;
   font-family: 'Lato',sans-serif;
@@ -110,10 +111,25 @@ h3.heading {
   padding-bottom: .4rem;
 }
 .product p {
- font-size: 100rem;
+ font-size: 1.1rem;
 }
 
-
+/*----- start of infa section----*/
+.fixed {
+  background-image: url(img/infa.jpg);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3{
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+margin-top: 1.5rem;
+}
 
 /*----- start of client section-----*/
 
@@ -172,6 +188,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 =============*/
-
-
-
